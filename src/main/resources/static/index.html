@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Spring Boot File Upload / Download Rest API Example</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<noscript>
+    <h2>Sorry! Your browser doesn't support Javascript</h2>
+</noscript>
+<div class="upload-container">
+    <div class="upload-header">
+        <h2>Spring Boot File Upload / Download Rest API Example</h2>
+    </div>
+    <div class="upload-content">
+        <div class="single-upload">
+            <h3>Upload Single File</h3>
+            <label >
+                Tên phim:
+                <input type="text" id="filmName">
+            </label>
+            <form id="singleUploadForm" name="singleUploadForm">
+                <label>
+                    Thêm poster:
+                    <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />
+                </label>
+                <input type="submit" class="upload" hidden>
+            </form>
+            <input type="text" id="imageName" value="">
+            <button class="create-btn">Submit</button>
+        </div>
+    </div>
+</div>
+<script src="/js/main.js" ></script>
+</body>
+
+
+<!--<body>-->
+<!--<div class="upload-container">-->
+<!--    <div class="upload-header">-->
+<!--        <h2>Spring Boot File Upload / Download Rest API Example</h2>-->
+<!--    <div>-->
+<!--        <label >-->
+<!--            Tên phim:-->
+<!--            <input type="text" id="filmName">-->
+<!--        </label>-->
+<!--        <form id="singleUploadForm">-->
+<!--            <label>-->
+<!--                Thêm poster:-->
+<!--                <input id="singleFileUploadInput" type="file" name="file" class="file-input" required />-->
+<!--            </label>-->
+<!--            <button type="submit" class="upload" hidden ></button>-->
+<!--        </form>-->
+<!--        <input type="text" id="imageName" value="">-->
+
+<!--        <input type="button" id="create-button" value="Submit">-->
+<!--    </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<script src="/js/main.js" ></script>-->
+<!--</body>-->
+</html>
